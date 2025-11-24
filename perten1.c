@@ -1,8 +1,6 @@
 #include<stdio.h>
-
 int main()
 {
-    
     int i,j,x,n,a,b,c;
     printf("enter the number");
     scanf("%d",&n);
