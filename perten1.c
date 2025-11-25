@@ -12,15 +12,12 @@ int main()
         {
           printf(" ");
         }
-        for(j=n-i;j<n;j+i)
-        { 
-            for(x=1,a=1,b=1,c=0;x<=i;x++)
-            {
-              a+=c;
-              printf("%d",a);
-              c=b;
-              b=a;
-            }
+        for(x=1,a=1,b=1,c=0;x<=i;x++)
+        {
+          a+=c;
+          printf("%d",a);
+          c=b;
+          b=a;
         }
         printf("\n");
     }
